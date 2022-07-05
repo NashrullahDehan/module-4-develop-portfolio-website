@@ -1,6 +1,38 @@
 body{
     font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    margin: 0;
 }
 h1{
     font-size: 50px;
+}
+.h1-span-author-design{
+    color: rgb(255, 0, 0);
+    display: block;
+}
+.section-design{
+    border: 2px solid black;
+    display: flex;
+    padding: 0 7%;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.section1-div-design{
+    border: 2px solid black;
+    width: 50%;
+}
+.section1-div-design img{
+    border: 2px solid rgb(123, 0, 255);
+    width: 86%;
+    margin-right: 0;
+    margin-left: 14%;
+}
+.button-style{
+    border: 2px solid black;
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 700;
+    color: aliceblue;
+    padding: 10px 40px;
+    border-radius: 5px;
 }
