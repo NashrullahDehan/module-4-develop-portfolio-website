@@ -3,33 +3,35 @@ body{
     /* font-family: 'Roboto Condensed', sans-serif; */
     margin: 0;
 }
+
 h1{
     font-size: 45px;
 }
+
 .h1-span-author-design{
     color: rgb(255, 0, 0);
     display: block;
 }
+
 .section-design{
-    border: 2px solid black;
     display: flex;
     padding: 0 7%;
     margin-bottom: 110px;
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
 }
+
 .section1-div-design{
-    border: 2px solid black;
     width: 50%;
 }
+
 .section1-div-design img{
-    border: 2px solid rgb(123, 0, 255);
     width: 86%;
     margin-right: 0;
     margin-left: 14%;
 }
+
 .button-style{
-    border: 2px solid black;
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     font-weight: 700;
@@ -37,8 +39,8 @@ h1{
     padding: 10px 40px;
     border-radius: 5px;
 }
+
 .section2-design{
-    border: 2px solid black;
     display: flex;
     padding: 0 7%;
     margin-bottom: 110px;
@@ -46,12 +48,51 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+
 .section2-div-design{
-    border: 2px solid black;
     width: 50%;
 }
+
 .section2-div-design img{
-    border: 2px solid rgb(123, 0, 255);
     width: 86%;
     margin-left: 0;
+}
+
+.section3-design h1{
+    font-size: 40px;
+}
+
+.section3-parent-div{
+    display: flex;
+    margin-bottom: 110px;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+
+.section3-child-div-design{
+    border-left: 7px solid tomato;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 4%;
+    padding:0px 25px 3px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+#blue-border{
+    border-left: 7px solid blue;
+    width: 38%;
+    margin-right: 4%;
+}
+
+.section3-child-div-design h3{
+    color: orange
+}
+
+.section3-child-div-design h2{
+    font-size: 40px;
+}
+
+footer p{
+    text-align: center;
 }
