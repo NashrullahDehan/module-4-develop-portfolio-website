@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 .h1-span-author-design{
     color: rgb(255, 0, 0);
@@ -14,6 +14,7 @@ h1{
     border: 2px solid black;
     display: flex;
     padding: 0 7%;
+    margin-bottom: 110px;
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -35,4 +36,22 @@ h1{
     color: aliceblue;
     padding: 10px 40px;
     border-radius: 5px;
+}
+.section2-design{
+    border: 2px solid black;
+    display: flex;
+    padding: 0 7%;
+    margin-bottom: 110px;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.section2-div-design{
+    border: 2px solid black;
+    width: 50%;
+}
+.section2-div-design img{
+    border: 2px solid rgb(123, 0, 255);
+    width: 86%;
+    margin-left: 0;
 }
